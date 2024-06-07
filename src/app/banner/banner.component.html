@@ -1,0 +1,47 @@
+<div class="laptop-header">
+  <div class="laptop-bg">
+    <img [src]="user.avatar" [alt]="user.first_name">
+
+  </div>
+  <div class="laptop-profile">
+    <img [src]="user.avatar_profile_bg" [alt]="user.first_name" class="background-image"/>
+    <img [src]="user.avatar_profile" [alt]="user.first_name" class="frontground-image"/>
+  </div>
+  
+  
+  <div class="laptop-nameandjobtitle">
+    <!---user.name-->
+    <p class="laptop-bg-text">
+      {{user.first_name}}
+    </p>
+    <p class="laptop-bg-text">
+      {{user.jobtitle}}
+    </p>
+    <!--end-->
+  </div>
+
+
+<button class="laptop-hire-me-button" (click)="btnFn()">
+  <span class="laptop-text109"><span>Hire Me</span></span>
+</button>
+<button class="laptop-download-cv-button"(click)="btnFn()">
+  <span class="laptop-text111"><span>Download CV</span></span>
+</button>
+
+
+<img
+src="/assets/socialmedia2826-bld.svg"
+alt="Socialmedia2826"
+class="laptop-socialmedia1"
+/>
+<img
+  src="/assets/socialmedia2837-9ug.svg"
+  alt="Socialmedia2837"
+  class="laptop-socialmedia"
+/>
+<img
+src="/assets/socialmedia2837-9ug.svg"
+alt="Socialmedia2837"
+class="laptop-socialmedia"
+/>
+</div>

@@ -1,0 +1,27 @@
+:host {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar is above other content */
+  }
+.laptop-navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color:#ffb900;
+}
+.laptop-navbar a{
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 27px;
+    font-style: Bold;
+}
+  @media (max-width: 600px) {
+    .laptop-navbar a {
+      margin-right: -10px;
+      padding: 5px 5px;
+      justify-content: space-between; 
+    }
+  }
